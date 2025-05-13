@@ -1,0 +1,58 @@
+/* Bootstrap overrides to ensure Poppins is used for all Bootstrap components */
+
+:root {
+  --bs-font-sans-serif: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bs-body-font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.form-control,
+.form-select {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.modal-content {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.dropdown-menu {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.card {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.table {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.alert {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Update Bootstrap Typography */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700;
+}
+
+/* Force all font weights to use Poppins */
+.fw-bold, .fw-semibold, .fw-medium, .fw-normal, .fw-light {
+  font-family: 'Poppins', sans-serif !important;
+}

@@ -1,0 +1,60 @@
+/* Global styles to ensure Poppins is used everywhere */
+
+html, body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Bootstrap overrides */
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6,
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Form elements */
+.form-control,
+.form-select,
+.input-group,
+.form-check,
+.form-check-input,
+.form-check-label,
+.form-label,
+.form-text {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Buttons and nav elements */
+.btn,
+.nav-link,
+.navbar-brand,
+.dropdown-menu,
+.dropdown-item,
+.dropdown-toggle {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Common components */
+.card,
+.modal,
+.offcanvas,
+.toast,
+.alert,
+.breadcrumb,
+.badge,
+.accordion,
+.list-group,
+.table,
+.pagination,
+.progress {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Custom components */
+.sidebar,
+.navbar,
+.main-content,
+.dashboard-layout {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+

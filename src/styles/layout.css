@@ -1,0 +1,46 @@
+/* Layout styles */
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Adjust content padding on mobile */
+@media (max-width: 991px) {
+  .main-content {
+    margin-left: 0 !important;
+  }
+}
+
+/* Fix for bootstrap dropdown menus in mobile view */
+.dropdown-menu {
+  position: absolute;
+}
+
+/* Make sure sidebar is above other content */
+.sidebar {
+  z-index: 1030;
+}
+
+/* Add some shadow to the sidebar */
+.sidebar.show {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure the navbar is above sidebar */
+.navbar {
+  z-index: 1025;
+}
+
+/* Make sure overlay is above everything except sidebar */
+.sidebar-overlay {
+  z-index: 1025;
+}
